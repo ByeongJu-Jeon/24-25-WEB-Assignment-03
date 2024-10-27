@@ -127,6 +127,9 @@ hr {
   align-items: top;
   margin-left: 12%;
   margin-bottom: 8px;
+  overflow-y: auto;
+  font-size: 14px;
+  color: red;
 }
 
 .button1 {
@@ -158,13 +161,4 @@ hr {
   border: #f51d1d;
   border-radius: 8px;
   color: white;
-}
-
-.error > p {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  color: #f51d1d;
-  overflow-y: auto;
-  font-size: 14px;
 }
